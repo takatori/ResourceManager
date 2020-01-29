@@ -44,6 +44,7 @@
     "@storybook/addon-info": "^5.3.9",
     "@storybook/addon-links": "^5.3.7",
     "@storybook/addons": "^5.3.7",
+    "@storybook/preset-create-react-app": "^1.5.2",
     "@storybook/react": "^5.3.7",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.6",

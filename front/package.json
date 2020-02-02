@@ -48,7 +48,6 @@
     "@storybook/react": "^5.3.7",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.6",
-    "jest": "^25.1.0",
     "react-docgen-typescript-loader": "^3.6.0",
     "ts-jest": "^25.0.0"
   }

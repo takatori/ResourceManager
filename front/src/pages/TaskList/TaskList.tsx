@@ -1,5 +1,5 @@
 import React from 'react';
-import Task from '../Task/Task';
+import Task from '../../components/Task/Task';
 
 export type TaskListProps = {
     loading?: Boolean,

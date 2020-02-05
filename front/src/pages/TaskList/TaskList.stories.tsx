@@ -1,6 +1,6 @@
 import React from 'react';
-import {actionsData, taskData} from "../Task/Task.stories";
-import Task from "../Task/Task";
+import {actionsData, taskData} from "../../components/Task/Task.stories";
+import Task from "../../components/Task/Task";
 import {storiesOf} from "@storybook/react";
 import TaskList from "./TaskList";
 

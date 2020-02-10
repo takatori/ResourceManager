@@ -12,7 +12,7 @@ const defaultTasks = [
 ];
 
 const slice = createSlice({
-    name: "taskList",
+    name: "tasks",
     initialState: {tasks: defaultTasks},
     reducers: {
         archiveTask: (state, action: PayloadAction<{ id: string }>) => {
@@ -25,3 +25,7 @@ const slice = createSlice({
         },
     }
 });
+
+export const actions = {...slice.actions};
+
+export default slice.reducer;

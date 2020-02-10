@@ -1,5 +1,7 @@
 import React from 'react';
 import Task from '../../components/Task/Task';
+import {useSelector} from "react-redux";
+import {taskListSelectors} from '../../modules/TaskList'
 
 export type TaskListProps = {
     loading?: Boolean,
@@ -8,7 +10,8 @@ export type TaskListProps = {
     onPinTask: Function,
 }
 
-export const TaskList: React.FC<TaskListProps> = ({loading = false, tasks, onArchiveTask, onPinTask}) => {
+export const TaskList: React.FC<TaskListProps> = ({loading = false, onArchiveTask, onPinTask}) => {
+    const tasks = useSelector(taskListSelectors.tasks);
     const events = {onPinTask, onArchiveTask};
     const LoadingRow = (
         <div className="loading-item">

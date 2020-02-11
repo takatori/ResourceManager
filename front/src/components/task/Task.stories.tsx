@@ -6,7 +6,7 @@ import {action} from "@storybook/addon-actions";
 
 export const taskData: Task = {
     id: '1',
-    title: 'Test Task',
+    title: 'Test task',
     state: 'TASK_INBOX',
 };
 
